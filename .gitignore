@@ -1,0 +1,10 @@
+/target
+**/*.rs.bk
+
+# wasm
+/bin
+/pkg
+wasm-pack.log
+
+# web
+node_modules/

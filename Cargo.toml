@@ -1,0 +1,10 @@
+[package]
+name = "barebone"
+version = "0.1.0"
+authors = ["Johan Björklund <johan.bjorklund@protonmail.ch>"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
